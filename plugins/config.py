@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6610426555:AAEUGUQM8YEE05h0D6pxWXTA73eRevfbzok")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 22058339))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "e0bf6ba5aad3001aa235c323ff25e312")
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
 
@@ -55,7 +55,7 @@ class Config(object):
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "mongodb+srv://coinku031:Ft5ARuaW7PIkrmJ1@cluster0.imp2pio.mongodb.net/?retryWrites=true&w=majority")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
 
